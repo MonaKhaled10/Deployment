@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib as joblib
 
-model = joblib.load(r'C:\Users\T.B\Desktop\Deploy\gemstone_model.pkl')
+model = joblib.load('gemstone_model.pkl')
 app=Flask(__name__)
 
 @app.route('/')
