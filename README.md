@@ -29,7 +29,7 @@ The final trained model was deployed using ModelBit, allowing users to interact 
 The deployed model achieved a validation RMSE of 613.39 and a test RMSE of 598.37, indicating accurate gemstone price predictions.
 
 ### Web Application: 
-Access the web application using the provided URL ([here](https://gemstoneprice-od8y.onrender.com/)) to input gemstone characteristics and receive price predictions interactively.
+Access the web application using the provided URL (here) to input gemstone characteristics and receive price predictions interactively. The web application is hosted on Render, ensuring reliability and accessibility
 
 ### Flutter Application: 
 Integrate the Gemstone Price Prediction model into our Flutter mobile application by leveraging the ModelBit API. This allows us to programmatically request gemstone price predictions using HTTP POST requests.
